@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+.header{
+    background-color: #222a35;
+    /* width: 100%; */
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    /* display: none; */
+
+}
+.logo {
+    width: 40px;
+    height: 40px;
+    /* fill: white; */
+    filter: brightness(0) invert(1); 
+    /* margin-left: 180px; */
+}
+span.port{
+    color:white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+ul{
+    display: flex;
+    gap: 32px;
+    /* margin-left: 130px; */
+    
+}
+ ul a{
+    text-decoration: none;
+    gap: 52px;
+    color: white;
+     transition: color 0.3s; 
+    list-style: none;
+    justify-content: center;
+    font-weight: 540;
+}
+ul a:hover {
+    color: rgb(133, 76, 230);
+    font-weight: bold;
+
+}
+.github{
+    /* margin-left: 150px; */
+    
+}
+ 
+.github a{
+    text-decoration: none;
+    color: rgb(133, 76, 230);
+    border: 2px solid rgb(133, 76, 230);;
+    padding: 8px;
+    border-radius: 20px;
+}
+.github a:hover {
+    color: #fff;
+    background-color:rgb(133, 76, 230) ;
+    font-weight: bold;
+    
+}
+.row{
+   background-color: #222a35;
+}
+h1{
+    color: white;
+    font-weight: 700;
+    /* margin-left: 50px; */
+    font-size: 50px;
+    /* margin-left: 190px; */
+   
+}
+ span.field{
+    color:white;
+    font-size: 25px;
+    font-weight: 550;
+    /* margin-left: 190px; */
+
+}
+span.fields{
+    font-family: 'Roboto Slab', serif;  /* Font for job title */
+    font-size: 1.5rem;                  /* Slightly smaller than name */
+    font-weight: 400;                   /* Normal weight */
+    font-style: italic;                 /* Italic for emphasis */
+    color: #9f9f9f;                     /* Grey color for differentiation */
+    letter-spacing: 1px;                /* Slight letter spacing */
+    margin-bottom: 20px; 
+}
+
+
+p{
+    color: rgba(242, 243, 244, 0.584);;
+    font-weight: 100;
+    /* margin-left: 190px; */
+    font-size: 20px;  
+    /* opacity: 0.6; */
+}
+.logos{
+    width: 320px;
+    height: 320px;
+    border: 3px solid rgb(133, 76, 230);
+    border-radius: 400px;
+    padding: 60px;
+    margin-top: 90px;
+    /* margin-left: 250px; */
+    background: linear-gradient(90deg, #a668e7, #2e5290);
+    
+}
+.resum{
+    text-decoration: none;
+    color: rgb(222, 220, 225);
+    border: 2px solid rgb(133, 76, 230);;
+    padding: 15px;
+    border-radius: 20px;
+    /* margin-left: 190px; */
+    font-weight:520;
+    font-size: 20px;
+    background: linear-gradient(90deg, #a668e7, #2e5290);
+
+
+}
+.resume a:hover{
+    padding: 10px 25px;
+    font-size: 21px;
+
+}
+
+/* @media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    ul {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 0;
+    }
+} */
