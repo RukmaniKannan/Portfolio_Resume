@@ -1,11 +1,14 @@
 
 import './App.css';
-import Header from './Component/Header';
+import TimerPlaying from './New Task/TimerPlaying';
+// import Header from './Component/Header';
 
 function App() {
   return (
     <>
-    <Header />
+    {/* <Header /> */}
+    <TimerPlaying/>
+
     </>
   );
 }
