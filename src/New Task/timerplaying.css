@@ -36,6 +36,11 @@ input[type="date" i]::-webkit-calendar-picker-indicator {
 
 
 select:focus-visible{
-    border :2px solid  rgb(6, 167, 167);
+    border :3px solid  rgb(6, 167, 167);
     outline: none;
+}
+.images{
+    width: 100px;
+    height: 40px;
+
 }

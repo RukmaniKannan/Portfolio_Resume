@@ -6,6 +6,8 @@ import { MdOutlineCalendarMonth, MdOutlinePlayCircle } from 'react-icons/md';
 import { GoClock } from 'react-icons/go';
 import { CgPlayPauseO } from 'react-icons/cg';
 // import { GiCircle } from 'react-icons/gi';
+import imglogs from "../Assets/Screenshot 2024-10-29 151227.png"
+
 
 const TimerPlaying = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -80,7 +82,8 @@ const TimerPlaying = () => {
 
         <div className='row firma mt-5 p-5'>
           <div className='col'>
-            <p >Firma</p>
+            <span >Firma</span>
+            <img src={imglogs} className='images mx-2' />
 
           </div>
           <div className='col'>
